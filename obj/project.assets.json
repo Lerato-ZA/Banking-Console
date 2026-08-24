@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {}
   },
@@ -8,29 +8,29 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lerato\\.nuget\\packages\\": {}
+    "/home/lerato/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\Programming\\Banking\\projects\\Banking\\Banking.csproj",
+      "projectUniqueName": "/home/lerato/Desktop/Personal Project/Banking-Console/Banking.csproj",
       "projectName": "Banking",
-      "projectPath": "D:\\Personal\\Programming\\Banking\\projects\\Banking\\Banking.csproj",
-      "packagesPath": "C:\\Users\\Lerato\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\Programming\\Banking\\projects\\Banking\\obj\\",
+      "projectPath": "/home/lerato/Desktop/Personal Project/Banking-Console/Banking.csproj",
+      "packagesPath": "/home/lerato/.nuget/packages/",
+      "outputPath": "/home/lerato/Desktop/Personal Project/Banking-Console/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lerato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/lerato/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -45,11 +45,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "imports": [
           "net461",
@@ -67,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.111/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

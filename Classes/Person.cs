@@ -5,9 +5,9 @@ namespace Banking.Classes
 {
     public class Person{
 
-        public String FullName {set; get;}
-        public String Occupation {set; get;}
-        public string Gender {set; get;}
+        public String FullName {set; get;} = String.Empty;
+        public String Occupation {set; get;} = String.Empty;
+        public string Gender {set; get;} = String.Empty;
         public int AccountNumber {set; get;}
         public double Amount {set; get;}
         public int Pin {set; get;}

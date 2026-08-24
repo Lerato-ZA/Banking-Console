@@ -70,7 +70,7 @@ namespace Banking.Functions
             //bool account_found = false;
             int Pin_number;
 
-            Person selectedPerson = null; // No person is selected
+            Person? selectedPerson = null; // No person is selected
 
             foreach( Person p in Clients) // Checks the account and if found assigns it to selectedPerson.
             {
